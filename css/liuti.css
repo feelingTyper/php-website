@@ -1,0 +1,26 @@
+/* CSS Document */
+@charset "utf-8";
+html{font-size:625%}
+body{font-family:"helvetica Neue",Helvetica,Arial,"Microsoft Yahei UI","Microsoft Yahei",SimHei,""}
+img{display:block;max-width:100%}
+.adver{max-width:6.4rem}
+div{box-sizing:border-box}
+/*media query lg480px and lt640px*/
+@media (min-width:480px) and (max-width:640px){}
+@media (max-width:480px){}
+<link rel="stylesheet" media="(device-height: 480px) and (-webkit-min-device-pixel-ratio:2)" href="iphone4.css" />
+<link rel="stylesheet" media="(device-height: 568px)and (-webkit-min-device-pixel-ratio:2)" href="iphone5.css" />
+iscroll4.js
+white-space:nowrap /*不换行*/
+text-overflow:ellipsis
+transform:scale(1.0)
+-webkit-transform:scale-origin:0px 0px
+body{font-family:Helvetica;}
+html{font-size:10px}
+@media screen and (min-width:321px) and (max-width:375px){html{font-size:11px}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size:12px}}
+@media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}}
+@media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}}
+@media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px}}
+@media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}}
+@media screen and (min-width:800px){html{font-size:25px}}

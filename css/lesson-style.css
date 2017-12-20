@@ -1,0 +1,98 @@
+/* CSS Document  created by lshaluminum  */
+html{margin:0;padding:0;border:0}
+a,abbr,acronym,address,article,aside,blockquote,body,caption,code,dd,del,dfn,dialog,div,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,iframe,img,input,label,legend,li,nav,object,ol,p,pre,q,section,span,table,tbody,td,tfoot,th,thead,tr,ul{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
+article,aside,details,dialog,figcaption,figure,footer,header,menu,nav,section{display:block}
+body{line-height:1.5;background:#fff}
+table{border-spacing:0}
+caption,td,th{text-align:left;font-weight:400;float:none!important}
+table{border-collapse:collapse}
+table,td,th{vertical-align:middle}
+blockquote:after,blockquote:before,q:after,q:before{content:''}
+blockquote,q{quotes:"" ""}
+a img{border:none}
+:focus{outline:0}
+ol,ul{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+legend{color:#000}
+fieldset,img{border:0}
+button,input,select,textarea{font-size:100%}
+.clearfix{*zoom:1}
+.clearfix:after,.clearfix:before{display:table;line-height:0;content:""}
+.clearfix:after{clear:both}
+body{font:14px/1.5 arial,"Microsoft Yahei",simsun,sans-serif;color:#fff}
+/* style initaled */
+.lesson-contanier{height:auto}
+.lesson-center{width:1000px;margin:64px auto;height:auto;clear:both;margin-bottom:0}
+.lesson-ssnav{width:1000px;height:30px;margin-top:80px;color:gray;font-size:12px}
+.lesson-ssnav a{display:inline-block;width:auto;color:gray;font-size:12px;}
+.lesson-ssnav a:hover{color:#35b558}
+.lesson-ssnav span{color:gray;width:auto;display:inline-block;}
+.lesson-ssnav i{background:url(../img/sjbg.png) no-repeat -350px -7px;background-size:650px 600px;width:10px;height:10px;display:inline-block;-webkit-transform:rotate(-90deg);margin:0 5px}
+.lesson-vedioName span{clear:both;margin-top:20px;margin-bottom:20px;font-size:20px;color:#000;width:1000px}
+.lesson-vedioTag video{width:1000px;height:auto}
+.lesson-spjj{width:700px;height:200px;;float:left;background:#fafafa;}
+.jj-title{color:black; font-size:20px;margin-top:20px;margin-bottom:20px;}
+.lesson-spjj p{width:700px;color:black;font-size:16px;text-indent:30px;line-height:30px}
+.lesson-cast{width:260px;margin-left:40px;height:200px;background:#fafafa;float:left;color:black}
+.lesson-cast .cast-tag{border-bottom:1px dotted #e4e4e4;color:orange;font-weight:bold;margin-top:10px;margin-left:10px}
+.cast-school{color:gray;font-size:12px;margin:10px}
+.class-tagNames{color:gray;font-size:12px;margin-top:15px;margin-bottom:15px;margin-left:10px}
+.lesson-cast p{color:gray;font-size:12px;margin-bottom:15px;margin-left:10px}
+.cast-school a{color:gray}
+.cast-school a:hover{color:#35b558}
+/* */
+.lesson-taolun{width:1000px;height:auto;}
+.taolun-title{color:#35b558;font-zie:16px;margin-top:10px;margin-bottom:10px;width:50px;border-bottom:2px solid #35b558}
+.fabiao{width:100%;height:auto}
+.fabiao-form{width:90%;margin:0 auto;height:auto;}
+.textcontent{width:100%;height:100px;border:1px solid #eee;resize:none}
+.num-counter{width:100px;color:#35b558;height:35px;float:left;font-size:14px;margin-left:710px;margin-top:5px;line-height:35px;text-align:center}
+.command-sub{width:90px;height:35px;background:#f3fff6;color:#35b558;float:right;border-radius:3px;font-size:14px;font-weight:400;border:1px solid #35b558;margin-top:5px}
+.command-sub:hover{background:#35B558;color:white;cursor:pointer}
+.all-comments{width:1000px;height:auto;margin-top:70px;}
+.allcomment-title{color:#35b558;font-size:16px;border-bottom:1px solid #35b558;width:1000px;margin-top:15px}
+.commends-model{width:1000px;height:auto}
+.commend-ul{width:100%;height:auto}
+.commend-ul .commend-li{width:100%;height:auto;border-bottom:1px solid #eee;padding:15px 0;}
+.user-img{width:50px;height:50px;overflow:hidden;float:left;}
+.user-img img{width:60px;height:auto}
+.commend-right{float:left;margin-left:15px;width:935px}
+.user-name{width:930px;height:21px}
+.user-name a{color:#35b558;font-size:14px;font-weight:bold}
+.user-name a:hover{color:orange}
+.commend-content{color:#424040;font-size:12px;width:100%;margin-top:5px;}
+.commend-addtime{color:gray;margin-top:20px;float:left;}
+.applay{float:right;color:#35b558;margin-top:20px;width:70px;text-align:center;margin-right:0;height:21px}
+.applay:hover{color:orange;cursor:pointer}
+.support{float:left;color:#35b558;margin-top:20px;margin-left:682px;width:60px;}
+.support:hover{color:orange;cursor:pointer}
+.applay-expand{width:100%;height:auto;clear:both;display:block}
+.huifu{width:100%;height:40px;padding-top:15px;}
+.huifu-form{width:600px;margin:0 auto}
+.huifu-textcontent{width:100%;height:34px;border:1px solid #eee;resize:none;}
+.huifu-num-counter{color:#35B558;float:left;margin-left:550px;height:34px;line-height:34px;margin-top:2px}
+.huifu-confirm{color:#35b558;width:40px;height:24px;border:1px solid #35b558;float:left;margin-top:5px;margin-left:18px;border-radius:3px;line-height:24px;text-align:center}
+.huifu-conceal{color:#35b558;width:40px;height:24px;border:1px solid #35b558;float:left;margin-top:5px;margin-left:30px;border-radius:3px;line-height:24px;text-align:center}
+.huifu-confirm:hover{color:white;background:#35b558;cursor:pointer}
+.huifu-conceal:hover{color:white;background:#35b558;cursor:pointer}
+.subreplaycentent{width:650px;margin-left:350px;color:black;background:#f3fff6;display:none}
+.one-submodel{border-bottom:1px solid #eee}
+.sub-contentmodel{padding-left:10px;padding-top:5px}
+.subname-img{width:25px;height:25px;overflow:hidden;float:left;margin-top:5px}
+.subname-img img{width:30px;height:auto}
+.subname a{display:inline-block;color:#35b558;font-weight:bold;float:left;margin-left:5px;margin-top:5px}
+.subname a:hover{color:orange}
+.subcontent{float:left;margin-left:10px;width:554px;margin-top:5px;color:#424040;font-size:12px}
+.subtime{margin-left:490px;margin-top:2px;float:left;color:gray}
+.clear-both{clear:both}
+.subsubrep{float:right;margin-top:2px;margin-right:20px;margin-bottom:2px;color:#35b558}
+.subsubrep:hover{cursor:pointer;color:orange}
+
+
+.lesson-relativeVideo{width:1000px;height:300px;}
+.relative-title{color:#000000;font-size:16px;margin-top:30px;margin-bottom:30px}
+.lesson-expand{width:900px;height:150px;margin:0 auto}
+.zhhf{float:right}

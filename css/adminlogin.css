@@ -1,0 +1,51 @@
+/* CSS Document  created by lshaluminum  */
+html{margin:0;padding:0;border:0}
+a,abbr,acronym,address,article,aside,blockquote,body,caption,code,dd,del,dfn,dialog,div,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,iframe,img,input,label,legend,li,nav,object,ol,p,pre,q,section,span,table,tbody,td,tfoot,th,thead,tr,ul{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
+article,aside,details,dialog,figcaption,figure,footer,header,menu,nav,section{display:block}
+body{line-height:1.5;background:#fff;color:#333333}
+table{border-spacing:0}
+caption,td,th{text-align:left;font-weight:400;float:none!important}
+table{border-collapse:collapse}
+table,td,th{vertical-align:middle}
+blockquote:after,blockquote:before,q:after,q:before{content:''}
+blockquote,q{quotes:"" ""}
+a img{border:none}
+:focus{outline:0}
+ol,ul{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+legend{color:#000}
+fieldset,img{border:0}
+button,input,select,textarea{font-size:100%}
+.clearfix{*zoom:1}
+.clearfix:after,.clearfix:before{display:table;line-height:0;content:""}
+.clearfix:after{clear:both}
+body{font:14px/1.5 Verdana,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,arial,\5b8b\4f53,sans-serif;color:#fff}
+/* style initaled */
+
+
+.admin-login{width:1000px;min-height:500px;margin:0 auto;margin-top:80px;}
+.welcom_comeadmin{width:600px;height:40px;border:1px solid #35b558;background:#f3fff6;margin:50px auto 0 auto;line-height:38px;text-align:center;font-size:16px;color:#35B558;}
+.admin_login{width:600px;height:300px;border:1px solid #35b558;background:#f3fff6;margin:30px auto 0 auto;}
+.admin_name{text-align:center;margin:20px;margin-top:70px}
+.adminname_input{width:300px;height:38px;border:1px solid #35b558;padding:1px 10px;background:none}
+.admin_passwd{text-align:center;margin:20px}
+.adminpasswd_input{width:300px;height:38px;border:1px solid #35b558;padding:1px 10px;background:none}
+.adminlog_sub{width:150px;height:38px;line-height:38px;text-align:center;background:#35b558;color:#fff;border:1px solid #35B558;margin:auto auto}
+.adminlog_sub:hover{cursor:pointer}
+.clear_both{clear:both;margin-top:80px}
+.back_index{display:block;margin:20px auto;color:gray;width:600px;}
+.back_index:hover{color:#35b558}
+.cr{width:1000px;height:50px;margin:0 auto;color:gray;text-align:center;line-height:50px;font-size:12px}
+#totop{position:fixed;right:20px;top:200px;width:34px;height:34px;border:1px solid #e8e8e8;background:url(../img/gotop.jpg) 0 0 no-repeat;background-size:34px 103px;}
+#totop:hover{cursor:pointer;background:url(../img/gotop2.jpg) 0 0 no-repeat ;background-size:34px 103px;border:1px solid #35b558}
+.teacherlog_sub{width:150px;height:38px;line-height:38px;text-align:center;background:#35b558;color:#fff;border:1px solid #35B558;margin:0 140px;margin-right:20px;float:left;cursor:pointer}
+.teacherreg_sub{width:150px;height:38px;line-height:38px;text-align:center;color:#35b558;float:left;}
+.teacherreg_sub:hover{cursor:pointer;color:orange}
+
+
+
+
+

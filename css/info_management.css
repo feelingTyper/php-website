@@ -1,0 +1,117 @@
+/* CSS Document  created by lshaluminum  */
+html{margin:0;padding:0;border:0}
+a,abbr,acronym,address,article,aside,blockquote,body,caption,code,dd,del,dfn,dialog,div,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,iframe,img,input,label,legend,li,nav,object,ol,p,pre,q,section,span,table,tbody,td,tfoot,th,thead,tr,ul{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
+article,aside,details,dialog,figcaption,figure,footer,header,menu,nav,section{display:block}
+body{line-height:1.5;background:#fff;color:#333333}
+table{border-spacing:0}
+caption,td,th{text-align:left;font-weight:400;float:none!important}
+table{border-collapse:collapse}
+table,td,th{vertical-align:middle}
+blockquote:after,blockquote:before,q:after,q:before{content:''}
+blockquote,q{quotes:"" ""}
+a img{border:none}
+:focus{outline:0}
+ol,ul{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+legend{color:#000}
+fieldset,img{border:0}
+button,input,select,textarea{font-size:100%}
+.clearfix{*zoom:1}
+.clearfix:after,.clearfix:before{display:table;line-height:0;content:""}
+.clearfix:after{clear:both}
+body{font:14px/1.5 Verdana,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,arial,\5b8b\4f53,sans-serif;color:#fff}
+/* style initaled */
+
+.title{width:100%;height:64px;box-shadow:rgba(0, 0, 0, .1) 0 1px 5px;font-size:16px;color:#35B558;text-align:center;line-height:64px}
+.container{width:1200px;min-height:600px;border:1px solid #eaeaea;margin:20px auto}
+.cr{width:1000px;height:50px;margin:0 auto;color:gray;text-align:center;line-height:50px;font-size:12px}
+#totop{position:fixed;right:20px;top:200px;width:34px;height:34px;border:1px solid #e8e8e8;background:url(../img/gotop.jpg) 0 0 no-repeat;background-size:34px 103px;}
+#totop:hover{cursor:pointer;background:url(../img/gotop2.jpg) 0 0 no-repeat ;background-size:34px 103px;border:1px solid #35b558}
+.welcome_admin{height:40px;line-height:40px;color:#333333;font-weight:bold;font-size:14px;margin:10px 20px;width:300px;float:left}
+.welcome_admin span{color:#35B558}
+.student_info{width:1200px;min-height:500px;border:1px solid #eaeaea;margin:0px auto;clear:both;border-left:none;border-right:none;margin-bottom:50px}
+.left{width:200px;border-right:1px solid #eaeaea;float:left;height:100%}
+.right{width:999px;float:right;height:100%}
+.clear_both{clear:both}
+.bt{border-bottom:1px solid #35b558}
+.fenlei{diaplay:block;margin-top:20px}
+.fenlei ul li{height:40px;color:#333333;line-height:40px;text-indent:20px;}
+.fenlei ul li:hover{background:#e8e8e8;cursor:pointer;color:#35b558;border-left:2px solid #35B558;}
+.cur{background:#e8e8e8;cursor:pointer;color:#35b558;border-left:2px solid #35B558;box-shadow:rgba(0,0,0,.2)0 1px 6px}
+body{color:#333333}
+.stu_info_title{width:900px;height:39px;border-bottom:1px solid #eaeaea;line-height:39px;margin-left:44px;}
+.stu_info_table{width:900px;border:1px solid #eaeaea;margin-left:44px;margin-top:10px}
+.stu_info_table th{border:1px solid #eaeaea;font-size:14px;font-weight:bold;text-align:center;height:30px;line-height:30px}
+.stu_info_table td{border:1px solid #eaeaea;font-size:12px;height:30px;line-height:30px;text-align:center}
+.stu_info_table td a{color:#35b558;display:block;width:100%;height:100%;}
+.stu_info_table td a:hover{color:#fff;background:#35b558}
+.page{height:30px;text-align:right;margin-top:20px;width:900px;margin-left:44px;margin-bottom:20px}
+.page ul li{display:inline-block;height:28px;border:1px solid #eaeaea;color:#35b558;text-align:center;line-height:28px}
+.page ul li:hover{background:#35b558;color:#fff;cursor:pointer}
+.first{width:76px}
+.last{width:76px}
+.pre,.next{width:30px}
+.total{width:80px}
+.current{width:100px}
+.lesson_add{width:150px;height:38px;border:1px solid #eaeaea;color:#35b558;line-height:38px;text-align:center;margin:10px 0;float:right;margin-right:55px}
+.lesson_add a{display:block;color:#35B558}
+.lesson_add a:hover{color:#fff}
+.lesson_add:hover{background:#35B558;color:#fff}
+
+/* */
+.center{width:1000px;margin:0 auto}
+.center .stu_info_title span{display:inline-block;color:#35b558;margin:0 10px}
+.tiezi_ul{width:900px;margin-left:44px;min-height:300px}
+.tiezi_ul ul li{width:100%;min-height:50px;line-height:30px;}
+.tiezi_ul ul li a{color:#35b558;display:inline-block;}
+.tiezi_ul ul li a:hover{color:orange}
+.tiezi_ul ul li span{display:block;float:right}
+.tiezi_ul ul li span em{color:gray;margin:0 20px}
+/**/
+.container{position:relative}
+textarea{outline:none;border:1px solid #35b558;margin:3px;padding:1px 10px;min-height:200px;resize:none;width:160px}
+.kecheng_edit_ul{margin-top:10px;width:900px;}
+.kecheng_edit_ul table{width:1200px;}
+.kecheng_edit_ul table tr{width:1200px;display:block}
+.kecheng_edit_ul table th{display:inline-block;border:1px solid #35b558;height:40px;line-height:40px;text-align:center;font-weight:bold;width:163px;margin:5px 3px;background:#e8e8e8}
+.kecheng_edit_ul table tr td{height:40px;line-height:40px;text-align:center;width:180px;margin:5px 3px}
+.lesson_edit_part{width:1200px;position:absolute;top:80px;left:0}
+.xiugai{display:block;width:140px;height:40px;background:#35b666;line-height:40px;text-align:center;color:#fff;margin-top:20px;margin-left:20px}
+.xiugai:hover{background:#35b558}
+.lesson_add_part{width:1200px;position:absolute;top:80px;left:0}
+.tiezi_content{text-indent:20px;line-height:30px}
+.tianjia{display:block;width:140px;height:40px;background:#35b666;line-height:40px;text-align:center;color:#fff;margin-top:20px;margin-left:20px}
+.tianjia:hover{background:#35b558}
+.fenlei li a{display:block;color:#333333;}
+.fenlei li a:hover{color:#35B558}
+.message_content{margin-top:20px;width:900px;margin-left:44px}
+.message_content li{width:900px;min-height:60px;border-bottom:1px solid #eaeaea;}
+.message_content li .message_title{width:100%;min-height:30px;line-height:30px;color:#35b558;text-indent:20px}
+.message_author{width:100%;height:30px;line-height:30px;margin:10px 0px 5px 20px}
+.liuyanzhe{float:left;display:block;}
+.message_time{float:left;color:gray;margin-left:30px}
+.status{float:left;margin-left:30px;color:#35b558}
+.replay a{display:block;height:24px;line-height:24px;text-align:center;width:60px;float:right;color:#35b558;margin-right:50px;margin-top:3px}
+.replay a:hover{color:#fff;background:#35b558;}
+.liuyan_content_id{width:900px;margin-left:44px;text-indent:20px;min-height:30px;line-height:30px;color:#35b558;text-indent:20px;min-height:100px}
+.huifu_title{width:900px;margin-left:44px;height:40px;border-top:1px solid #eaeaea;line-height:40px;margin-top:10px}
+.huifu_liuyan_val{width:900px;min-height:200px;margin-left:44px}
+.huifu_confirm{width:150px;height:40px;background:#35A666;color:#fff;line-height:40px;text-align:center;margin-left:44px;margin-top:20px}
+.huifu_confirm:hover{background:#35b558;cursor:pointer}
+.sent_status{height:30px;width:900px;margin:10px 0}
+.sent_status span{display:block;float:left;margin-left:20px;line-height:30px}
+.sent_status a{display:none;float:right;margin-right:50px;color:#35b558;line-height:30px}
+.my_huifu{width:870px;border-top:1px solid #eaeaea;margin:10px 0px 10px 50px;line-height:30px}
+.huifu_content{margin-left:50px;line-height:30px;color:#35b558;float:left}
+.huifu_time{float:right;line-height:30px;float:right;color:gray}
+.laiyuan{float:left;margin-right:20px;height:30px;line-height:30px}
+.laiyuan .admin_name{color:#35B558;display:inline-block;margin:0px 10px}
+.laiyuan time{color:gray}
+
+.tongzhi{width:900px;height:40px;border:1px solid #35b558;color:#35b558;margin-top:10px;line-height:40px;text-align:center;font-size:16px;font-weight:16px;margin-left:44px;background:#e8e8e8}
+.tongzhi_content{out-line:none;height:300px;width:880px;margin-left:44px;padding:1px 10px;border:1px solid #35b558;resize:none}
+
+

@@ -1,0 +1,92 @@
+/* CSS Document  created by lshaluminum  */
+html{margin:0;padding:0;border:0}
+a,abbr,acronym,address,article,aside,blockquote,body,caption,code,dd,del,dfn,dialog,div,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,iframe,img,input,label,legend,li,nav,object,ol,p,pre,q,section,span,table,tbody,td,tfoot,th,thead,tr,ul{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
+article,aside,details,dialog,figcaption,figure,footer,header,menu,nav,section{display:block}
+body{line-height:1.5;background:#fff}
+table{border-spacing:0}
+caption,td,th{text-align:left;font-weight:400;float:none!important}
+table{border-collapse:collapse}
+table,td,th{vertical-align:middle}
+blockquote:after,blockquote:before,q:after,q:before{content:''}
+blockquote,q{quotes:"" ""}
+a img{border:none}
+:focus{outline:0}
+ol,ul{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+legend{color:#000}
+fieldset,img{border:0}
+button,input,select,textarea{font-size:100%}
+.clearfix{*zoom:1}
+.clearfix:after,.clearfix:before{display:table;line-height:0;content:""}
+.clearfix:after{clear:both}
+body{font:14px/1.5 Verdana,"Lantinghei SC","Hiragino Sans GB","Microsoft Yahei",Helvetica,arial,\5b8b\4f53,sans-serif;color:#fff}
+/* style initaled */
+body{color:#333333}
+.liuyan_container{width:1000px;margin:84px auto 0 ;min-height:600px;background:#fff;border:1px solid #eaeaea;margin-bottom:100px}
+.liuyan_left{width:180px;height:100%;float:left}
+.liuyan_right{width:819px;height:100%;float:left;border-left:1px solid #eaeaea}
+.left_author{width:100%;height:120px;border-bottom:1px solid #eaeaea}
+.author-img{width:68px;height:68px;border:1px solid #e6e6e6;border-radius:50%;margin:5px auto}
+.author-img1{width:58px;height:58px;border:1px solid #e6e6e6;border-radius:50%;overflow:hidden;margin:4px auto}
+.author-img1 a{display:block}
+.author-img1 a img{width:80px;height:auto}
+.author{margin:0 auto;text-align:center}
+.author a{display:block;color:#35b558}
+.left_ul{width:100%;margin-top:10px}
+.left_ul ul{width:100%}
+.left_ul ul li{width:100%;height:40px;line-height:40px;text-align:left;text-indent:16px;color:#6d6d6d;font-size:14px}
+.left_ul ul a{display:block;color:#6d6d6d;width:100%;height:100%;}
+.left_ul ul a:hover{color:#35b558;background:#e8e8e8;}
+#curbg{background:#e8e8e8;color:#35b558}
+.right_content{width:780px;height:580px;margin:20px 20px}
+
+
+.gerenziliao{display:block;width:100%;color:#35b558;border-bottom:1px solid #eaeaea;height:30px;line-height:30px;text-indent:20px}
+.personal_info ul{margin-top:20px}
+.personal_info li{width:100%;height:80px;text-indent:20px}
+.personal_info li span{display:inline-block;}
+
+
+.message_addtime{width:388px;height:30px;line-height:30px;float:left;border:1px solid #eaeaea;border-top:none;border-bottom:none;text-align:center}
+.meassage_teacher{width:389px;height:30px;line-height:30px;float:left;text-align:center;border-right:1px solid #eaeaea}
+.liuyan_content{clear:both;border:1px solid #eaeaea;height:200px}
+.liuyan_content p{padding:15px 15px;font-size:14px}
+.my_message_ul li em{color:#8c8c8c}
+
+
+.my_tiezi ul{margin-top:30px;border-top:1px solid #eaeaea}
+.my_tiezi ul li{width:100%;min-height:80px;border:1px solid #eaeaea;border-top:none}
+.my_tiezi ul li .my_tiezi_title{display:inline-block;width:740px;line-height:30px;color:#35B558;margin-bottom:20px;margin:10px 20px}
+.my_tiezi ul li .my_tiezi_title:hover{background:#e8e8e8}
+.tiezi-info{width:400px;color:#8c8c8c;margin-bottom:10px;height:30px;float:right}
+.fabuzai{width:110px;color:#8c8c8c;float:left}
+.fabuzai a{display:inline-block;color:#333;margin-left:10px}
+.fabuzai a:hover{color:#35b558}
+.fabushijian{float:left;margin-left:10px}
+.fwhf{float:left;margin-left:20px}
+.tiezi-invitation{margin-right:10px;height:18px;color:#9da5ab;display:inline-block}
+.tiezi-invitation i{display:inline-block;background:url(../img/invitation_pic.png) 0 0 no-repeat;width:16px;height:10px;margin-right:5px}
+.tiezi-applay{height:18px;color:#9da5ab;display:inline-block}
+.tiezi-applay i{display:inline-block;background:url(../img/invitation_pic.png) 0px -12px no-repeat;width:18px;height:10px;margin-right:5px}
+
+
+.passwd_input{margin:0 auto;margin-top:20px;width:778px;height:400px;border:1px solid #eaeaea}
+.input_passwd{width:740px;margin:60px 20px;height:40px}
+.input_passwd span{display:inline-block;line-height:38px;width:120px;height:38px;font-size:14px;border:1px solid #eaeaea;text-align:center;margin-right:20px;background:#e8e8e8;color:#35b558;}
+.input_passwd input{border:1px solid #eaeaea;height:36px;padding:1px 10px;width:300px}
+.input_passwd_confirm{width:740px;margin:60px 20px;height:40px}
+.input_passwd_confirm span{display:inline-block;line-height:38px;width:120px;height:38px;font-size:14px;border:1px solid #eaeaea;text-align:center;margin-right:20px;background:#e8e8e8;color:#35b558;}
+.input_passwd_confirm input{border:1px solid #eaeaea;height:36px;padding:1px 10px;width:300px}
+.passwd_sub{width:148px;height:38px;background:#f3FFF6;color:#35b558;text-align:center;line-height:38px;margin:20px 20px;border:1px solid #35b558;-webkit-transition:.5s}
+.passwd_sub:hover{cursor:pointer;background:#35b558;color:#fff;}
+
+
+
+
+
+
+
+

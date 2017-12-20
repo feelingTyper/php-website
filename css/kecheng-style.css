@@ -1,0 +1,78 @@
+/* CSS Document  created by lshaluminum  */
+html{margin:0;padding:0;border:0}
+a,abbr,acronym,address,article,aside,blockquote,body,caption,code,dd,del,dfn,dialog,div,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,iframe,img,input,label,legend,li,nav,object,ol,p,pre,q,section,span,table,tbody,td,tfoot,th,thead,tr,ul{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
+article,aside,details,dialog,figcaption,figure,footer,header,menu,nav,section{display:block}
+body{line-height:1.5;background:#fff}
+table{border-spacing:0}
+caption,td,th{text-align:left;font-weight:400;float:none!important}
+table{border-collapse:collapse}
+table,td,th{vertical-align:middle}
+blockquote:after,blockquote:before,q:after,q:before{content:''}
+blockquote,q{quotes:"" ""}
+a img{border:none}
+:focus{outline:0}
+ol,ul{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+legend{color:#000}
+fieldset,img{border:0}
+button,input,select,textarea{font-size:100%}
+.clearfix{*zoom:1}
+.clearfix:after,.clearfix:before{display:table;line-height:0;content:""}
+.clearfix:after{clear:both}
+body{font:14px/1.5 arial,"Microsoft Yahei",simsun,sans-serif;color:#fff}
+/* style initaled */
+.kecheng-container{height:1200px}
+.kecheng-center{width:1000px;height:500px;margin:64px auto;}
+.kecheng-center .kecheng-left{width:200px;height:auto;border:1px solid #eee;border-top:2px solid #35b558;margin-top:30px;float:left}
+.kecheng-ul{margin-top:0px;width:200px;height:auto;border-top:1px solid #eee}
+.kecheng-ul li{width:200px;height:100px;border-bottom:1px solid #eee;line-height:100px;text-indent:15px;}
+.kecheng-allclassify{width:100%;height:40px;}
+.kecheng-allclassify a{color:#000; text-decoration:none;font-size:16px;display:inline-block;width:100%;height:40px;line-height:40px;text-indent:15px}
+.kecheng-ul li a{color:black;display:block;width:100%;height:100%}
+.kecheng-ul li a:hover{color:#35b558}
+.kecheng-ul li:hover{border-left:1px solid #35b558; -webkit-box-shadow:rgba(0,0,0,.1)1px 1px 2px }
+.ii{display:block;width:0!important;height:0!important;padding:0!important;font-size:0!important;line-height:0!important;border:5px solid transparent;border-bottom-width:0;border-top-color:#666;content:" "}
+.kecheng-right{width:770px;height:500px;margin-left:28px;float:left;margin-top:30px}
+.kecheng-rightwrap{width:770px;height:38px;background:#e4e4e4}
+/*copy*/
+.sort{position:relative;z-index:500}
+.sort>.wrap{box-sizing:content-box;height:36px;border:1px solid #e4e4e4;background:#f5f5f5;color:#666;line-height:36px}
+.sort .sortMode{overflow:visible;float:left;height:36px}
+.sort .sortMode h3{float:left;padding:0 18px;border-right:1px solid #e4e4e4;font-size:12px;font-weight:400;cursor:default}
+.h3-cur{background:#fff;}
+.sort .previewMode{float:right}
+
+.previewMode li{position:relative;float:left;width:36px;height:36px;border-left:1px solid #e4e4e4;line-height:36px;text-align:center;cursor:pointer;-webkit-transition:background-color .2s;-moz-transition:background-color .2s;-ms-transition:background-color .2s;transition:background-color .2s}
+.previewMode li.curr,.previewMode li:hover{background:#fff}
+.previewMode li .icon{position:relative;top:-1px;display:inline-block;width:14px;height:14px;vertical-align:middle;background:url(../img/preview-icon.png) no-repeat 0 0}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2){
+	.previewMode li .icon{background-image:url(../img/preview-icon-x2.png);background-size:60px 14px}
+	}
+.previewMode li a.lesson-map{display:block}
+.previewMode li.kuai-icon .icon{width:14px;background-position:0 0}
+.previewMode li.list-icon .icon{width:19px;background-position:-15px 0}
+.previewMode li.tree-icon .icon{width:19px;background-position:-34px 0}
+.previewMode li.tree-icon:hover{background:0 0}
+.previewMode li.tree-icon a.lesson-map:hover{background:#fff}
+.previewMode li .mod-tips{position:absolute;bottom:100%;right:0;margin-right:-42px;white-space:nowrap;color:#7c5900;font-size:12px;cursor:default}
+.previewMode .mod-tips .arrow{position:absolute;top:100%;right:55px;margin-top:-1px;display:inline-block}
+.previewMode .mod-tips .arrow:after,.previewMode .mod-tips .arrow:before{display:block;width:0!important;height:0!important;padding:0!important;font-size:0!important;line-height:0!important;border:5px solid transparent;border-bottom-width:0;border-top-color:#f1e5b3;content:" "}
+.previewMode .mod-tips .arrow:after{position:absolute;left:1px;bottom:1px;border-width:4px;border-bottom-width:0;border-top-color:#fff9df}
+/*copy end*/
+.right-kuai{width:770px;height:auto}
+.right-kuai ul{width:770px;height:auto;margin-top:30px}
+.right-kuai ul li{width:770px;height:100px;border-bottom:1px solid #f3f3f3;padding:15px 0}
+.right-kuai ul li:hover{background:#e8e8e8}
+.right-imgDiv{width:185px;height:100px;float:left;margin-right:15px;position:relative;overflow :hidden }
+.right-imgDiv a img{width:185px;height:auto;}
+.right-play{width:185px;height:100px;position:absolute;background:#000000;opacity:0;top:0;left:0;display:none}
+.icon-i{width:50px;height:50px;margin:25px auto;background:none;position:absolute;top:0px;right:67px;display:none}
+.icon-i i{display:block;background:url(../img/player_icon.png) no-repeat center center;background-size:50px 50px;width:50px;height:50px;margin:auto auto}
+.right-detailDiv{float:left;width:566px;height:100px}
+.right-detailDiv a{color:#333;font-size:14px;font-weight:400}
+.right-detailDiv a:hover{color:#35b558;font-size:14px;font-weight:400}
+.right-p1{color:gray;font-size:12px;line-hight:18px;margin-top:10px;margin-bottom:20px}
+.right-detailDiv p{color:gray}

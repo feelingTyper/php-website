@@ -1,0 +1,169 @@
+/* CSS Document  created by lshaluminum  */
+html{margin:0;padding:0;border:0}
+a,abbr,acronym,address,article,aside,blockquote,body,caption,code,dd,del,dfn,dialog,div,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,iframe,img,input,label,legend,li,nav,object,ol,p,pre,q,section,span,table,tbody,td,tfoot,th,thead,tr,ul{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
+article,aside,details,dialog,figcaption,figure,footer,header,menu,nav,section{display:block}
+body{line-height:1.5;background:#fff}
+table{border-spacing:0}
+caption,td,th{text-align:left;font-weight:400;float:none!important}
+table{border-collapse:collapse}
+table,td,th{vertical-align:middle}
+blockquote:after,blockquote:before,q:after,q:before{content:''}
+blockquote,q{quotes:"" ""}
+a img{border:none}
+:focus{outline:0}
+ol,ul{list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+legend{color:#000}
+fieldset,img{border:0}
+button,input,select,textarea{font-size:100%}
+.clearfix{*zoom:1}
+.clearfix:after,.clearfix:before{display:table;line-height:0;content:""}
+.clearfix:after{clear:both}
+body{font:14px/1.5 arial,"Microsoft Yahei",simsun,sans-serif;color:#fff}
+/* style initaled */
+
+body{background:#f3f3f3;color:#333333;-webkit-font-smoothing:antialiased}
+.clear-both{clear:both}
+.luntan-container{width:100%;height:auto;margin-top:82px;}
+.luntan-center{width:1000px;margin:0 auto;}
+.luntan-left{width:250px;height:auto;float:left}
+.luntan-right{width:730px;height:auto;float:right}
+.lefttop{width:248px;border:1px solid #e6e6e6;background:#fff}
+.lefttop .all-tiezi{width:200px;margin:0 auto;height:49px;line-height:49px}
+.lefttop .luntan-theme{width:200px;margin:0 auto;}
+.lefttop .luntan-theme li{width:100%;height:49px;border-top:1px solid #e6e6e6}
+.lefttop .luntan-theme li a{color:#333333;font-size:14px;line-height:49px}
+.lefttop i{display:inline-block;width:20px;height:12px;margin-right:8px;background:url(../img/luntan-icon.png)no-repeat center center;}
+.lefttop .luntan-theme li a:hover{color:#35b558}
+.leftcenter{width:248px;border:1px solid #e6e6e6;margin-top:15px;background:#fff}
+.leftcenter .leftcenter-min{width:200px;margin:20px auto}
+.counter-number{font-size:18px;line-height:18px;margin-bottom:10px}
+.span-z{font-size:12px;line-height:normal;color:#8c8c8c;margin-bottom:12px}
+.leftcenter .leftcenter-min .counter-number{color:#35b558}
+.leftcenter .today-fatie{width:99px;height:59px;border-right:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;float:left;text-align:center}
+.leftcenter .zuotian-fatie{width:100px;height:59px;border-bottom:1px solid #e6e6e6;float:left;text-align:center}
+.total-fatie{width:99px;height:59px;border-right:1px solid #e6e6e6;float:left;text-align:center;padding-top:10px}
+.total-number{width:100px;height:59px;float:left;text-align:center;padding-top:10px}
+.leftcenter .leftcenter-min .hot-news{margin-top:20px;height:30px;border-bottom:1px solid #e6e6e6;font-weight:bold}
+.hotnews-img{width:190px;height:auto;overflow:hidden;margin-top:15px}
+.hotnews-img a{width:190px;height:100px;display:block;overflow:hidden}
+.hotnews-img a img{width:190px;height:auto}
+.hotnews-img span{font-size:12px;line-height:14px;display:block;margin-top:10px;width:100%;text-align:center}
+.rightcenter{background:#fff;position:relative;}
+.righttop{margin-bottom:20px}
+.right-nav{width:728px;height:36px;border:1px solid #e6e6e6}
+.rightnav-ul{width:100%;background:#f5f5f5;float:left}
+.rightnav-ul li{width:15%;height:36px;line-height:36px;text-align:center;float:left;border-right:1px solid #e4e4e4;color:#666}
+.rightnav-cur{background:#fff}
+.pageDiv{width:670px;height:30px;margin:30px auto 0}
+.pageDiv ul{width:100%;}
+.pageDiv ul a{display:block;height:28px;line-height:30px;color:#333;min-width:28px;text-align:center;border:1px solid #dfdfdf;}
+.pageDiv ul li{display:inline-block}
+.pageDiv .page{width:30px;height:30px}
+.pageDiv .first{width:76px;height:30px;}
+.pageDiv .last{width:76px;height:30px;}
+.pageDiv .previous{width:50px;height:30px}
+.pageDiv .next{width:50px;height:30px}
+.pageDiv ul a:hover{border-color:#35b558;background:#35b558;color:white}
+.pageDiv .selected a{border:1px solid #35b558;color:#35b558;background:#FFFFFF}
+.pageDiv .selected a:hover{border:1px solid #35b558;color:#35b558;background:#FFFFFF}
+.welcome-fatie{width:680px;height:32px;margin:10px auto;line-height:32px;}
+.huanying{float:left;color:#000;margin-right:10px}
+.huanying a{color:#35b558}
+.huanying a:hover{color:orange}
+.zaixian-now{float:left}
+.fabuxintie{height:32px;background:#35B558;float:right;border-radius:3px;width:80px}
+.fabuxintie a{display:inline-block;line-height:32px;text-align:center;width:80px;color:white}
+.tieziborder{width:100%;border:1px solid #e6e6e6;border-top:none}
+.tiezi-content{width:680px;margin:0 auto;margin-top:10px;}
+.theme-ul{width:100%;}
+.theme-ul .theme-list{width:100%;height:68px;padding-top:16px}
+.theme-authorimg{width:50px;height:50px;overflow:hidden;border-radius:50%;margin-right:10px;float:left}
+.theme-authorimg a{dispaly:block;width:50px;height:50px}
+.theme-authorimg a img{width:70px;height:auto}
+.theme-right{width:620px;height:67px;float:left;border-bottom:1px solid #EEEEEE;}
+.tiezi-title{margin-top:10px;font-size:16px;line-height:16px;height:20px}
+.tiezi-title a{color:#35b558}
+.tiezi-info{width:100%;font-size:12px;margin-top:6px;line-height:18px;padding-bottom:13px}
+.tiezi-author{float:left;margin-right:10px}
+.tiezi-author a{font-size:12px;color:#8c8c8c}
+.tiezi-author a:hover{color:#ff8b3d}
+.tiezi-addtime{color:#8c8c8c;float:left;margin-right:10px}
+.tiezi-classify{float:left;margin-right:10px}
+.tiezi-classify a{color:#8C8C8C}
+.tiezi-classify a:hover{color:#35b558}
+.tiezi-status{color:#8c8c8c;float:left;margin-right:200px}
+.fwhf{float:left;margin-left:20px}
+.tiezi-invitation{margin-right:10px;height:18px;color:#9da5ab;display:inline-block}
+.tiezi-invitation i{display:inline-block;background:url(../img/invitation_pic.png) 0 0 no-repeat;width:16px;height:10px;margin-right:5px}
+.tiezi-applay{height:18px;color:#9da5ab;display:inline-block}
+.tiezi-applay i{display:inline-block;background:url(../img/invitation_pic.png) 0px -12px no-repeat;width:18px;height:10px;margin-right:5px}
+.all-tiezi:hover{cursor:pointer}
+.fatie-shuru{width:100%;height:0;background:#f3f3f3;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;padding-top:10px;top:0;left:0;display:none}
+.titleandclassify{width:100%;height:40px;position:relative;}
+.fatie-title{width:500px;height:100%;float:left}
+.fatie-title span{width:80px;height:100%;line-height:40px;font-size:16px}
+.fatie-title input{width:418px;height:38px;border:1px solid #e6e6e6;}
+.fatie-classify{width:78px;background:#fff;height:38px;margin-left:10px;border:1px solid #e6e6e6;overflow:hidden;position:absolute;top:0;left:510px}
+.fatie-classify:hover{cursor:pointer}
+.select-classify{width:80px;height:40px;font-size:16px;line-height:40px;text-align:center;}
+.fatie-classify ul li{width:100%;height:39px;border-top:1px solid #e6e6e6;background:#fff;font-size:16px;text-align:center;line-height:39px}
+.fatie-content{width:100%;height:252px;margin-top:10px}
+.fatie-content textarea{width:726px;height:246px;resize:none;border:1px solid #e6e6e6;margin-bottom:0}
+.fatieztnum{width:714px;height:19px;border:1px solid #e6e6e6;border-top:none;margin-left:7px;background:#fff;}
+.fatietj-btn{width:80px;height:35px;float:right;margin-right:25px;margin-top:3px}
+.fatietj-btn button{width:78px;height:33px;border:1px solid #35b558;font-size:14px;color:#35b558;line-height:33px;text-align:center;background:#f3fff6;border-radius:3px}
+.fatietj-btn button:hover{cursor:pointer}
+.welcomeborder{width:100%;border:1px solid #e6e6e6;border-bottom:none}
+.fatie-tip{width:200px;height:25px;line-height:25px;background:#35b558;color:#fff;text-align:center;-webkit-box-shadow:#f3f3f3 0 1px 5px;position:absolute;border-radius:3px;top:200px;left:220px;display:none}
+.zaixian-now em{color:#35b558}
+.author-img{width:68px;height:68px;border:1px solid #e6e6e6;border-radius:50%;margin:5px auto}
+.author-img1{width:58px;height:58px;border:1px solid #e6e6e6;border-radius:50%;overflow:hidden;margin:4px auto}
+.author-img1 a{display:block}
+.author-img1 a img{width:80px;height:auto}
+.author{margin:0 auto;text-align:center}
+.author a{display:block;color:#35b558}
+.hispage{width:90px; height:30px;background:#ff8b3d;display:inline-block;margin-right:10px;}
+.hispage:hover{background:orange}
+.hisbtn{width:200px;height:30px;margin:0 auto;color:#FFF;line-height:30px;text-align:center;margin-top:10px;margin-bottom:15px}
+.hisbtn a{display:block;color:#fff}
+.histiezi{width:90px;height:30px;background:#35ba88;display:inline-block}
+.histiezi:hover{background:#35B558}
+.tiezicontent-title{border-bottom:1px solid #e3e3e3;}
+.tile-title{font-size:22px;color:#333333;text-align:center;margin-bottom:15px}
+.tiezi-info{width:100%;color:#8c8c8c;margin-bottom:10px}
+.fabuzai{width:110px;color:#8c8c8c;float:left}
+.fabuzai a{display:inline-block;color:#333;margin-left:10px}
+.fabuzai a:hover{color:#35b558}
+.fabushijian{float:left;margin-left:10px}
+.tiezineirong{margin-top:15px;text-indent:15px;font-size:18px}
+.tiezi-comment{margin-top:20px;border:1px solid #e6e6e6;background:#fff;min-height:600px}
+.comment-title{width:100%;margin-top:10px;height:20px;color:#8c8c8c;line-height:20px;font-size:12px}
+.comment-title span{color:#333333;font-size:16px;font-weight:bold;line_height:20px;float:left;margin-left:10px;margin-right:10px}
+.comment-ulcontainer{width:100%;height:auto}
+.comment-ulcontainer ul{width:680px;margin:0 auto;margin-top:25px}
+.comment-ulcontainer ul li{width:100%;border-bottom:1px solid #e3e3e3;padding-top:15px}
+.comment-author{width:50px;height:50px;float:left;}
+.author_img{width:100%;height:100%;border-radius:50%;overflow:hidden}
+.author_img img{width:70px;height:auto}
+.comment_right_content{float:left;margin-left:20px;width:610px}
+.right_author{width:100%;height:20px}
+.right_author a{color:#35b558;display:inline-block;margin-right:5px}
+.right_author a:hover{color:#ff8b3d}
+.right_author span{display:inline-block;color:#8c8c8c}
+.right_author time{color:#8c8c8c;margin-left:10px}
+.right_author em{display:inline-block;color:#8c8c8c;float:right;}
+.right_content{width:100%;height:auto;margin:10px 0 0 0} 
+.pinglun_huifu_zhichi{width:100%;text-align:right;color:#8c8c8c}
+.pinglun_huifu_zhichi span{display:inline-block;margin-right:10px}
+.pinglun_huifu_zhichi span:hover{cursor:pointer;color:orange}
+.tiezineirong{margin:10px 0;min-height:200px}
+.textarea_btn{float:left;height:40px;width:610px;margin-top:5px;margin-bottom:15px}
+.textarea_btn textarea{resize:none;padding:0;outline:0;float:left;padding:12px 10px;margin:0 10px 0;width:408px;height:14px;line-height:14px;border:1px solid #e6e6e6;text-indent:13px;font-size:12px;color:#333}
+.textarea_btn span{display:inline-block;height:40px;width:140px;line-height:40px;text-align:center;background:#35ba88;color:#fff;font-size:14px}
+.textarea_btn span:hover{background:#35b558}
+
+
